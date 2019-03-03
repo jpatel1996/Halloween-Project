@@ -1,0 +1,96 @@
+
+/*HTML Formating*/
+
+html{
+	background: url("../images/bats.gif") repeat fixed center; /*This will display the background with repeating both sides and fixed at center position*/
+}
+	
+/*FormatType Selectors*/
+
+body{
+	font-family: sans-serif;
+	font-size: 90%;
+	width: 800px;
+	background-color: white;
+	margin: 4px auto;
+	border: 5px solid black; /*This is used to create border around the page*/
+	box-shadow: 3px 6px 20px 8px black ;	/*it displays the shadow of the box*/
+}
+h1 h2 h3 h4{
+	margin: 0;
+	padding: 0;
+}
+a {font-weight: bold}
+a:link {color: #f2972e;} /*This is orange color*/
+a:visited {color: #f2972e;}  /*This is orange color*/
+a:hover, a:focus {color: green;}
+	
+		/*The Styles for the header*/
+
+header{
+	    padding-left: 0.2em;
+		background-image: linear-gradient(45deg, white 0%, orange 75%, black 95%); /*It displays the background color in 
+																					45 deg linear-gradient style from left to right*/
+																		
+			border-bottom: 2px solid black; /*this creates bottom at the bottom of the header*/
+}
+
+header img{
+	float: left;
+}
+
+header h2{
+	font-size: 350%;	
+	color: black;  /*This is orange color*/
+	text-align: left;
+}
+header h4{
+	font-size: 200%;
+	text-align: left;
+	padding-left: 3.5em;
+}
+
+		/*The styles for the main*/
+main{
+		width: 640px;
+		font-size: 110%;
+		float: right; /*This will display the content of the main in right side into the page*/ 
+	    padding-left: 1.5em;
+}
+
+main h1::first-letter { 
+	font-size: 220%; 
+}
+
+			/*The Styles for the sidebar*/
+
+aside{
+	width: 160px;
+	float: top; /*This will display the content of the aside in top into the page*/ 
+	padding-top: 2em;
+}
+
+aside ul{
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+aside li{
+	font-size: 128%;
+	padding-bottom: .35em;
+}
+
+			/*The Styles for the footer*/
+
+footer{
+	clear: both;
+	margin-top: 0.5em;
+	background-image: linear-gradient(45deg, black 0%, orange 55%, white 95%); /*It displays the background color in 
+																					45 deg linear-gradient style from right to left.*/
+	border-top: 3px solid black; /*This creates border at the top of the footer*/
+} 
+
+footer p{
+	font-size: 110%;
+	text-align: center;
+}
